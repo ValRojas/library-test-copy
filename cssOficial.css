@@ -1,0 +1,106 @@
+body {padding-top: 0 !important; background-color: #faf2ec}
+
+#Nav{
+    padding: 10px 0px 0px;
+}
+
+.logoDes{
+    margin: 0px 0px 0px 50px;
+}
+
+.carousel-widget .flickity-slider .carousel-cell {
+width: 100%;
+text-align: center;
+}
+.carousel-widget .flickity-slider .carousel-cell img {
+max-width: 100%;
+}
+
+.containerText{
+    width: 50%;
+    text-align: center;
+}
+
+
+@media (max-width: 800px) {
+    .responsive-breakpoint {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .containerText{
+        width: 100%
+    }
+    .logoDes{
+        display: none
+    }
+}
+
+/*Books logo*/
+.book1{
+    position: relative;
+    height:17px;
+    width:80px;
+    border: 2px solid #1b5972;
+    border-radius: 6px 0 0 6px;
+    border-right-style: none;
+    background: #fffff0;  
+  }
+  .book2{
+    position: relative;
+    height:20px;
+    width:73px;
+    margin-left:5px;
+    background: #b077cf;  
+  }
+  .ribbonCut1{
+    position: absolute;
+    margin: 5px 0 0 2px;
+    border-left: 0px solid #ff785b;
+      border-right: 10px solid transparent;
+      border-top: 12px solid #ff785b;
+  }
+  .ribbonCut2{
+    position: absolute;
+    margin: 5px 0 0 12px;
+    border-left: 10px solid transparent;
+      border-right: 0px solid #ff785b;
+      border-top: 12px solid #ff785b;
+  }
+  .ribbonCut3{
+    position: absolute;
+    margin: 0 0 0 2px;
+    height: 5px;
+    width: 20px;
+    background: #ff785b;
+  }
+  .book2:before,
+  .book2:after{
+    content: "";
+    position: absolute;
+  }
+  .book2:before{
+    height: 25px;
+    width: 25px;
+    left: 5px;
+    border-left: 20px double #fff;
+  } /*line frames*/
+  .book2:after{
+    background: white;
+    margin: 5% 0 0 45%;
+    width: 25px;
+    height: 13px;
+  } /*frame*/
+  .book3{
+    position: relative;
+    height:15px;
+    width:85px;
+    border: 2px solid #21799b;
+    border-radius: 0 5px 5px 0;
+    border-left-style: none;
+    background: #fffff0;  
+  }
+  .bookCut3{
+    width: 5px;
+    height: 30px;
+  }

@@ -1,0 +1,26 @@
+//Test
+<div class="alert banDes" role="alert" style="background-color: #b077cf; color:white; text-align: center; margin-bottom: 0px; font-weight: bold; width: 100%;">
+    <h5 style="text-align: center;">Accede a tus ebooks desde <b>Mis Publicaciones</b></h5>
+</div>
+
+
+<script>
+    const appReader = document.querySelector('#Nav')
+    
+    //Orange Nav Header
+    appReader.insertAdjacentHTML('afterend',     
+	`<div class="alert banDes" role="alert" style="background-color: #ec9543; color:white; text-align: center; margin-bottom: 0px; font-weight: bold; width: 100%;">
+        <h5 style="text-align: center;">Accede a tus ebooks desde <b>Mis Publicaciones</b></h5>
+    </div>`
+    );
+
+    //Books Logo
+    appReader.insertAdjacentHTML('afterbegin',
+    '<div class="dropdown show logoDes"><a style="color: rgb(255, 0, 140)" class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="bg"><div class="book1"><div class="ribbon1"></div><div class="bookCut"></div></div><div class="book2"><div class="ribbonCut1"></div><div class="ribbonCut2"></div><div class="ribbonCut3"></div></div><div class="book3"><div class="ribbon3"></div><div class="bookCut3"></div></div></div></a><div class="dropdown-menu" aria-labelledby="dropdownMenuLink"><p class="dropdown-item" href="#">Dónde contactarme?</p><div class="dropdown-divider"></div><a target="_blank" class="dropdown-item" href="https://www.linkedin.com/in/rojas-valentina/">LinkedIn</a><a target="_blank" class="dropdown-item" href="https://github.com/ValRojas">Github</a></div></div>');
+
+</script>
+
+//No bootstrap added
+<div class="bg logoDes"><div class="book1"><div class="ribbon1"></div><div class="bookCut"></div></div><div class="book2"><div class="ribbonCut1"></div><div class="ribbonCut2"></div><div class="ribbonCut3"></div></div><div class="book3"><div class="ribbon3"></div><div class="bookCut3"></div></div></div>
+
+
